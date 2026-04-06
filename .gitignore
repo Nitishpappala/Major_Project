@@ -1,0 +1,65 @@
+# Root gitignore for SIH-2023-main
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+env/
+ENV/
+venv.bak/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite build output
+dist/
+
+# Logs
+logs/
+*.log
+
+# Local configuration files
+*.local
+
+# Secret files
+*.key
+*.pem
+
+# Misc
+coverage/
+*.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Databricks / notebooks
+.ipynb_checkpoints/
+
+# Generated files
+*.sqlite3
+*.db

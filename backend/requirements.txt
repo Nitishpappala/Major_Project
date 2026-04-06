@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+databricks-sql-connector
+python-dotenv
+pydantic
+numpy

@@ -1,0 +1,43 @@
+# Gitignore for backend Python service
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+env/
+ENV/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+coverage/
+*.coverage
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Byte-compiled / cache files
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/

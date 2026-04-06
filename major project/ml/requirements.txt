@@ -1,0 +1,31 @@
+# Core ML
+torch
+transformers
+tensorflow
+keras
+
+# NLP
+spacy
+nltk
+contractions
+
+# Data Processing
+pandas
+numpy
+openpyxl
+xlsxwriter
+scipy
+
+# Web Scraping
+requests
+beautifulsoup4
+selenium
+
+# Translation
+deep-translator
+
+# Video Processing (needed for video scrapers only)
+moviepy
+SpeechRecognition
+pydub
+pytube
